@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Trirong:wght@300;400&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="logo">
+            <p>Hadley Takashi Reetz</p>
+        </div>
+        <nav class="nav">
+            <div class="desktop">
+                <p>about</p>
+                <p>skills</p>
+                <p>work</p>
+                <p>contact</p>
+                <button>Download Resume</button>
+            </div>
+            <div class="hamburger">
+                <img class="menuIcon" src="../images/Hamburger-Menu.png"
+                    onclick="this.parentNode.classList.toggle('open')" alt="hamburger icon">
+                <div class="hamburgerMenu">
+                    <p>about</p>
+                    <p>skills</p>
+                    <p>work</p>
+                    <p>contact</p>
+                    <button>Download Resume</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="parallax">
+    <section class="heroImg">
+        <div class="aboutHero">
+            <img id="niceToMeetYou" src="../images/niceToMeetYou.png">
+            <img id="portrait" src="../images/portrait.jpeg">
+
+        </div>
+    </section>
+    
+    <div class="parallax-layer layer1"></div>
+    <div class="parallax-layer layer2 one"></div>
+    <div class="parallax-layer layer2 two"></div>
+    <div class="parallax-layer layer2 three"></div>
+    <div class="parallax-layer layer2 four"></div>
+    <div class="parallax-layer layer3 five"></div>
+    <div class="parallax-layer layer3 six"></div>
+    <div class="parallax-layer layer3 seven"></div>
+
+    <section class="aboutMe">
+        <div class="modal">
+            <img class="illustration" src="../images/film.png"
+                alt="a pink, blue, and yellow illustration of vintage items. Such as a blue cassette, a yellow and pink film camera, and a red and blue vinyl.">
+            <div class="aboutText">
+
+                <p><span class="aboutHadley">Hadley</span> has lived in Chicago since 2017 when she began as a student
+                    at DePaul University and studied psychology and graphic design. She was involved in DePaul's Social
+                    Cognition Lab, where she found her passion for research methods and data analytics. This led her to
+                    take a Python certificate course through DePaul's college of professional development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutMe">
+        <div class="modal">
+            <div class="aboutTextLeft">
+
+                <p>Hadley thought her dual passion of graphic design and psychology was a unique pairing, until she
+                    discovered the field of UX/UI Design. She continued her education at Northwestern University through
+                    the UX/UI Bootcamp Certificate Program, graduating in April of 2023.
+                </p>
+            </div>
+            <img class="illustration" src="../images/games.png"
+                alt="An illustration of various boardgames. There is a majong set, a deck of cards, and a tetris set. ">
+
+        </div>
+    </section>
+
+    <section class="aboutMe">
+        <div class="modal">
+            <img class="illustration" src="../images/fruit.jpg"
+                alt="An illustration of various fruit in bowls and cigarettes. Very colorful with pink, yellow, blue, green, and red colors. Reflecting a historic still life style. ">
+            <div class="aboutText">
+                <p>Outside of her field, she prioritizes creativity in other walks of life, often painting or creating
+                    illustrations, such as the ones depicted here. Additionally, she spends lots of time rock climbing,
+                    camping, and running with her rescue pup, Maude.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <h3 id="workTogether">LET'S WORK <br> TOGETHER</h3>
+            <div class="footerImg">
+                <img src="../images/Instagram.png">
+                <img src="../images/linkedin.png">
+                <img src="../images/gmail.png">
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+<script src="../js/index.js"></script>
+
+</html>

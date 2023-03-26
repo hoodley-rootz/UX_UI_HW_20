@@ -1,0 +1,601 @@
+body {
+    background-image: radial-gradient(ellipse, #FFCCEB, #EBDFFF);
+    margin: 0;
+    /*background-image: linear-gradient(to bottom right, #FFCCEB, #EBDFFF);*/
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav .desktop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    display: none;
+}
+
+
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.menuIcon {
+    background-image: url("../images/Hamburger-Menu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.hamburgerMenu {
+    display: none;
+    position: relative;
+    left: -45px;
+    top: 48px;
+    width: 100vw;
+}
+
+.open .hamburgerMenu {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.open .menuIcon {
+    background-image: url("../images/Close.png");
+    background-repeat: no-repeat;
+}
+
+.nav p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80%;
+    padding: 1%;
+    /*background-color:lightblue;*/
+}
+
+/*nav {
+    width: 71%;
+    padding:1%;
+}*/
+
+.content {
+    display: block;
+}
+
+.hero {
+    width: 100%;
+    padding-top: 40vh;
+}
+
+.blurb {
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.heroImg {
+    height: 1000px;
+    padding: 4%;
+    /*background-color:aqua;*/
+
+}
+
+p {
+    font-family: 'Trirong', serif;
+    font-size: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h2 {
+    font-family: 'Trirong', serif;
+    font-size: 54px;
+    font-weight: 300;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: rgb(255, 160, 228);
+    border: none;
+    padding: 2px 35px;
+    border-radius: 30px;
+    font-family: 'Trirong', serif;
+    font-size: 18px;
+    height: 52px;
+    align-items: center;
+}
+
+/* CASE STUDY HOME PAGE STYLING */
+
+.caseStudy {
+    height: 700px;
+    padding: 5% 5%;
+}
+
+.caseStudy h2 {
+    font-family: 'Trirong', serif;
+    font-size: 54px;
+    font-weight: 300;
+    padding-bottom: 0%;
+    /*padding issue again*/
+    margin-block-end: 0em;
+}
+
+.caseStudyBackground {
+    height: 500px;
+    width: 100%;
+    max-width: 1030px;
+    border-radius: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pink {
+    background-color: rgb(255, 160, 228);
+}
+
+.Purple {
+    background-color: rgb(184, 147, 243);
+}
+
+.caseStudyImage {
+    background-size: contain;
+    height: 430px;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.campToCrag {
+    background-image: url("../images/camptocragmobile.png");
+    transition: transform 1000ms ease-out;
+}
+
+.campToCrag:hover {
+    transform: rotate(10deg);
+}
+
+.DOE {
+    background-image: url("../images/DOE-Mobile.png");
+    transition: transform 1000ms ease-out;
+}
+
+.DOE:hover {
+    transform: rotate(10deg);
+}
+
+.CCUS {
+    background-image: url("../images/CCUS-Mobile.png");
+    transition: transform 1000ms ease-out;
+}
+
+.CCUS:hover {
+    transform: rotate(10deg);
+}
+
+/* About me CSS */
+
+/* ABOUT HERO */
+.aboutHero {
+    display: flex;
+    flex-direction: column;
+}
+
+#portrait {
+    max-width: 60%;
+    border-radius: 500px 500px 500px 0px;
+    max-height: 70vh;
+    order: 1;
+}
+
+#niceToMeetYou {
+    width: 100%;
+    max-height: 70%;
+    object-fit: scale-down;
+    order: 2;
+}
+
+/* ABOUT MODALS */
+
+
+
+span {
+    font-family: 'Trirong', serif;
+    font-size: 54px;
+    font-weight: 300;
+    margin-block-end: 0em;
+}
+
+.aboutMe {
+    height: 120%svh;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    height: 85vh;
+    width: 100%;
+    max-height: 900px;
+    max-width: 1200.21px;
+    background-color: rgb(255, 160, 228);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.aboutText {
+    display: inline-block;
+    margin-right: 5%;
+    line-height: 170%;
+}
+
+.aboutTextLeft {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.modal p {
+    font-size: 15px;
+}
+
+.modal span {
+    font-size: 40px;
+}
+
+.aboutText h2 {
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.aboutText p {
+    display: inline-block;
+}
+
+.illustration {
+    height: auto;
+    width: 42%;
+    border-radius: 42px;
+    margin: 5%;
+}
+
+
+
+/* My Skills CSS */
+
+.skills {
+    height: 1400px;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 440px 440px 440px;
+    grid-template-areas:
+        "one two"
+        "three four"
+        "five six";
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.skillBox {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 160, 228);
+    border-radius: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillIcon {
+    width: 114px;
+    height: 114px;
+}
+
+/* Footer CSS */
+.footer h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+.footerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+/* Media Queries */
+
+@media only all and (min-width: 900px) {
+
+    .navigation {
+        margin: 3px;
+    }
+
+    .nav .desktop {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .heroImg {
+        height: 780px;
+        padding: 1%;
+        /*background-color:aqua;*/
+
+    }
+
+    .hero {
+        /* display:flex; */
+        width: 60%;
+        /*outline: 3px solid red;*/
+
+    }
+
+    .blurb {
+        width: 35%;
+        /*outline: 3px solid red;*/
+        padding: 0px;
+        margin: 0px;
+        /*I want this to fully align to the bottom*/
+    }
+
+    .content {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .caseStudy {
+        height: 700px;
+        padding: 5% 15%;
+    }
+
+    .caseStudyImage {
+        background-size: contain;
+        height: 450px;
+        width: 50vw;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .campToCrag {
+        background-image: url("../images/camptocrag.png");
+    }
+
+    .DOE {
+        background-image: url("../images/DOE.png");
+    }
+
+    .CCUS {
+        background-image: url("../images/CCUS.png");
+    }
+
+    .caseStudyBackground {
+        height: 470px;
+        width: 100%;
+        max-width: 1030px;
+        border-radius: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 40%;
+        padding: 1%;
+        /*background-color:lightblue;*/
+    }
+
+    /* ABOUT PAGE */
+
+    #portrait {
+        max-width: 45%;
+        border-radius: 500px 500px 500px 0px;
+        max-height: 70vh;
+        order: 2;
+    }
+
+    #niceToMeetYou {
+        width: 55%;
+        max-height: 80%;
+        max-width: 55%;
+        object-fit: scale-down;
+        order: 1;
+    }
+
+    .aboutHero {
+        padding-top: 10vh;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .modal {
+        height: 85vh;
+        width: 65vw;
+        max-height: 900px;
+        max-width: 1200.21px;
+        background-color: rgb(255, 160, 228);
+        border-radius: 42px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .modal p {
+        font-size: 20px;
+    }
+
+    .modal span {
+        font-size: 54px;
+    }
+
+    .aboutText {
+        line-height: 200%;
+    }
+}
+
+@media only all and (min-width: 1100px) {
+
+    .parallax {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        perspective: 1px;
+    }
+
+    .parallax-layer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .layer1 {
+        transform: translateZ(0);
+    }
+
+    .layer2 {
+        transform: translateZ(-1px);
+    }
+
+    .layer3 {
+        transform: translateZ(-2px);
+    }
+
+    .parallax-layer.layer1 {
+        width: 100%;
+        height: 100rem;
+
+        /* background-image: radial-gradient(ellipse, #FFCCEB, #EBDFFF); */
+    }
+
+    .parallax-layer.layer2 {
+
+        width: 160px;
+        height: 160px;
+        border-radius: 200px;
+        background-color: rgb(184, 147, 243);
+    }
+
+    .one {
+        top: 100rem;
+        left: 80rem;
+    }
+
+    .two {
+        top: 150rem;
+        left: -20rem;
+    }
+
+    .three {
+        top: 200rem;
+        left: 60rem;
+    }
+
+    .four {
+        top: 70rem;
+        left: -25rem;
+    }
+
+    
+
+    .parallax-layer.layer3 {
+        width: 220px;
+        height: 220px;
+        border-radius: 250px;
+        background-color: rgb(255, 160, 228);
+    }
+
+    .five {
+        top: 90rem;
+        left: 150rem;
+    }
+
+    .six {
+        top: 140rem;
+        left: -70rem;
+    }
+
+    .seven {
+        top: 210rem;
+        left: 140rem;
+    }
+}
+
+
+
+/* 
+@media only all and (max-width:700px) {
+
+    .content {
+        display:block;
+    }
+
+    .hero {
+        width:100%;
+        padding-top:40vh;
+    }
+
+    .blurb {
+        width:100%;
+        margin:5%;
+        
+    }
+ */
+
+}
