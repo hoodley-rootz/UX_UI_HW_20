@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Trirong:wght@300;400&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="logo">
+            <p>Hadley Takashi Reetz</p>
+        </div>
+        <nav class="nav">
+            <div class="desktop">
+                <p>about</p>
+                <p>skills</p>
+                <p>work</p>
+                <p>contact</p>
+                <button class="download">Download Resume</button>
+            </div>
+            <div class="hamburger">
+                <img class="menuIcon" src="./images/Hamburger-Menu.png"
+                    onclick="this.parentNode.classList.toggle('open')" alt="hamburger icon">
+                <div class="hamburgerMenu">
+                    <p>about</p>
+                    <p>skills</p>
+                    <p>work</p>
+                    <p>contact</p>
+                    <button>Download Resume</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="heroImg">
+        <div class="content">
+            <h1 id="ctcHeroTxt">CAMP TO<br>CRAG</h1>
+            <img id="ctcHeroImg" src="./images/ctcHero2.png">
+        </div>
+    </section>
+    <section class="ctcCaseStudy theProblem">
+        <h2>The Problem</h2>
+        <p>It can be difficult to find comprehensive information about camping, hiking, and climbing within state and
+            national park websites. There is a clear need for a streamlined and effortless outdoor booking experience
+            designed for nature trip enthusiasts. How might we combine published, public, and individual insight
+            information on outdoor activity locations to create positive experiences for individuals researching,
+            booking, and executing nature based vacations?</p>
+
+        <div class="goals">
+            <p><span>Goal:</span> Create a mobile app for rock climbers who want to book campsites near their climbing
+                destinations.</p>
+            <p><span>Type:</span> Mobile App Design</p>
+            <p><span>Duration:</span> Four Weeks</p>
+            <p><span>Skills:</span> User Research, Wireframing, Prototyping, Figma</p>
+            <p><span>Responsibility:</span> All research and design</p>
+        </div>
+    </section>
+    <section class="ctcCaseStudy designThinking">
+        <h2>Design Thinking Process</h2>
+        <p>The double diamond process was followed to ensure a proper design thinking process</p>
+        <div class="designIcons">
+            <div class="designProcess">
+                <img src="./images/empathize.png">
+                <h3>Empathize</h3>
+                <p>User Research</p>
+                <p>User Interview</p>
+                <p>User Survey</p>
+            </div>
+            <img class="arrow" src="../images/designArrow.png">
+            <div class="designProcess">
+                <img src="./images/designDefine.png">
+                <h3>Define</h3>
+                <p>User Persona</p>
+                <p>User Journey Map</p>
+                <p>Goal Statement</p>
+                <p>Empathy Map</p>
+            </div>
+            <img class="arrow" src="../images/designArrow.png">
+            <div class="designProcess">
+                <img src="./images/designIdeate.png">
+                <h3>Ideate</h3>
+                <p>Feature Prioritization</p>
+                <p>I like, I wish, What if</p>
+                <p>User Flow</p>
+                <p>Competitor Analysis</p>
+            </div>
+            <img class="arrow" src="../images/designArrow.png">
+            <div class="designProcess">
+                <img src="./images/designDesign.png">
+                <h3>Design</h3>
+                <p>Paper Wireframes</p>
+                <p>Visual Design</p>
+                <p>Prototype</p>
+            </div>
+            <img class="arrow" src="../images/designArrow.png">
+            <div class="designProcess">
+                <img src="./images/designTest.png">
+                <h3>Test</h3>
+                <p>Check Usability</p>
+                <p>Survey Insight</p>
+                <p>Improvements</p>
+            </div>
+        </div>
+    </section>
+    <section class="ctcCaseStudy empathize">
+        <h2>Empathize</h2>
+        <p>User interviews were conducted to collect qualitative data from participants. A survey created before the
+            interviews were sent to participants after the interviews were conducted along with posted on Instagram to
+            collect additional insight. These were done in an attempt to better understand the current holes in the
+            market around outdoor focused travel apps.</p>
+        <div class="quotes">
+            <div class="singleQuote">
+                <img src="./images/quotesOpen.png">
+                <p>I have gone to places where on Yelp they said was horrible, but when I went there it was awesome and
+                    vice versa, somebody said it was amazing, and it was horrible.</p>
+            </div>
+            <div class="singleQuote">
+                <img src="./images/quotesOpen.png">
+                <p>Since I typically camp in national parks and stuff like that, their sites aren't great. They're kind
+                    of old school. And sometimes it's kind of hard to navigate the page or even find the camping page on
+                    the website.</p>
+            </div>
+        </div>
+        <div class="graphs">
+            <img class="topLeft" src="./images/61.png">
+            <div class=topRight>
+                <span>61.1%</span>
+                <p>of users say it is difficult to find a campsite without a reservation</p>
+            </div>
+            <div class="bottomLeft">
+                <span>58.3%</span>
+                <p>of users say it is difficult to find information on climbing locations
+                </p>
+            </div>
+            <img class="bottomRight" src="./images/38.png">
+        </div>
+    </section>
+
+    <section class="ctcCaseStudy define">
+        <h2>Define</h2>
+        <p>Many users have reported difficulties in utilizing state park websites to book campsites and obtain precise
+            information on climbing locations. Novice outdoor enthusiasts, in particular, often find themselves
+            intimidated by the process of reserving a spot and planning their trip, owing to the prevalence of outdated
+            and ambiguous information regarding climbing locations. To address these concerns, a user persona was
+            developed to encapsulate the findings.</p>
+
+        <div class="userPersonaColor">
+            <div class="userPersona">
+                <img src="./images/protopersonaimg.png"
+                    alt="caucasion man in a tank top smiling at the camera form above while climbing ">
+                <p>Elijah, a beginner outdoor enthusiast, who has become an avid hiker and rock climber needs a way to
+                    organize and book his outdoor excursion in Yosemite next month because he wants to guarantee a
+                    campsite and feel prepared for his daily outings, but is having a hard time navigating the national
+                    park website and getting his questions answered in a reliable and comprehensive way. </p>
+            </div>
+        </div>
+        <div class="userNeeds">
+            <div class="userNeed">
+                <h1>1</h1>
+                <p>Users need the ability to book their campsites ahead of time with ease. </p>
+            </div>
+            <div class="userNeed">
+                <h1>2</h1>
+                <p>Users need to be able to find campsites that are nearby their desired climbing area. </p>
+            </div>
+            <div class="userNeed">
+                <h1>3</h1>
+                <p>Users need comprehensive and accurate information on their climbing destinations. </p>
+            </div>
+        </div>
+    </section>
+    <section class="ctcCaseStudy ideate">
+        <h2>Ideate</h2>
+        <p>After identifying the users needs, feature prioritization was executed to translate these goals into
+            actionable features within the app. A value proposition analysis was done in order to understand the needs
+            of the user in relation to the potential features. Additionally a competitor analysis was completed to
+            compare features of competing apps. Lastly, multiple user flows were created to create a seamless experience
+            for the user. </p>
+        <div class="iLike">
+            <img id="iLike" src="./images/ilikeiwishwhatif.png" alt="a collection of voice bubbles">
+        </div>
+        <div class="competitorAnalysis">
+            <img src="./images/mountainProject.png" alt="a screenshot of mobile app Mountain Project">
+            <div class="competitorAnalysisTxt">
+                <h3>Mountain Project</h3>
+                <p>While the Mountain Project app provides a wealth of information for climbers, its user interface can
+                    be overwhelming and difficult to navigate at times, especially for new users. Additionally, the
+                    app's search functionality could be improved to make it easier to find specific climbing routes or
+                    areas. Lastly, while the community engagement features are a valuable aspect of the app, some users
+                    have reported issues with spam and inappropriate content on the platform.</p>
+            </div>
+        </div>
+        <div class="competitorAnalysis">
+            <img src="./images/campSpot.png" alt="a screenshot of mobile app camp spot">
+            <div class="competitorAnalysisTxt">
+                <h3>Campspot</h3>
+                <p>The Campspot app provides users with a streamlined and easy-to-use interface for discovering and
+                    booking campsites across the United States. However, some users have reported issues with the app's
+                    accuracy of campsite availability and pricing, which can lead to frustration during the booking
+                    process. Additionally, while the app offers some filters for refining search results, it could
+                    benefit from additional options to help users find campsites that meet their specific needs.</p>
+            </div>
+        </div>
+        <div class="competitorAnalysis">
+            <img src="./images/recreationGov.png" alt="a screenshot of mobile app recreation.gov">
+            <div class="competitorAnalysisTxt">
+                <h3>Recreation.gov</h3>
+                <p>The Recreation.gov app offers a comprehensive platform for discovering and booking campsites, cabins,
+                    and other recreational activities across the United States. However, some users have reported
+                    difficulty with the app's user interface, which can be confusing and difficult to navigate at times.
+                    Additionally, the app's search functionality could benefit from additional filters and sorting
+                    options to help users find relevant results more easily.</p>
+            </div>
+        </div>
+        <div class="problemSolution">
+            <h3>Problem</h3>
+            <h3 id="solution">Solution</h3>
+        </div>
+        <img id="problemSolution" src="./images/problemSolution.png">
+        <img id="userFlow" src="./images/userFlow.png">
+    </section>
+    <section class="ctcCaseStudy Design">
+        <h2>Design</h2>
+        <p>Taking into consideration the goals established during the definition and ideation stage, wireframes were
+            produced to address the pain points experienced by users. This solution enables users to efficiently locate
+            campsites in close proximity to their favored climbing destinations before their arrival. Furthermore, users
+            have access to real-time updates on campsite availability, eliminating the need to refer to state park
+            websites. In addition, users can access detailed information on their climbing destination, including
+            difficulty level, helpful feedback from other climbers, and an accurate map of the approach to the climb.
+        </p>
+        <h3>Sketches</h3>
+        <div class="sketchesImg">
+            <img src="./images/sketch1.png">
+            <img src="./images/sketch2.png">
+            <img src="./images/sketch3.png">
+        </div>
+        <div class="sketchesImg">
+            <img src="./images/sketch4.png">
+            <img src="./images/sketch5.png">
+            <img src="./images/sketch6.png">
+        </div>
+        <h3>Low Fidelity Sketches</h3>
+        <div class="sketchesImg">
+            <img src="./images/camptocragmobile.png">
+            <img src="./images/ctc2.png">
+            <img src="./images/ctc3.png">
+        </div>
+        <div class="sketchesImg">
+            <img src="./images/ctc4.png">
+            <img src="./images/ctc5.png">
+            <img src="./images/ctc6.png">
+        </div>
+    </section>
+    <section class="ctcCaseStudy Conclusion">
+        <h2>Conclusion</h2>
+        <p>Taking into consideration the goals established during the definition and ideation stage, wireframes were
+            produced to address the pain points experienced by users. This solution enables users to efficiently locate
+            campsites in close proximity to their favored climbing destinations before their arrival. Furthermore, users
+            have access to real-time updates on campsite availability, eliminating the need to refer to state park
+            websites. In addition, users can access detailed information on their climbing destination, including
+            difficulty level, helpful feedback from other climbers, and an accurate map of the approach to the climb.
+        </p>
+        <div class="conclusionImg">
+            <img src="./images/ctchome.png">
+            <img src="./images/ctcdevils.png">
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <h3 id="workTogether">LET'S WORK <br> TOGETHER</h3>
+            <div class="footerImg">
+                <img src="./images/Instagram.png">
+                <img src="./images/linkedin.png">
+                <img src="./images/gmail.png">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+</html>
